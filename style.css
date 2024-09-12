@@ -1,0 +1,673 @@
+/* Setting styles for the body of the document */
+body {
+    background-color: rgb(0, 0, 35);
+    /* Background color */
+    font-family: 'poppins', sans-serif;
+    /* Font family */
+    color: white;
+    /* Text color */
+}
+
+/* Styles for the left section */
+.left {
+    justify-content: left;
+    /* Align content to the left */
+    color: white;
+    /* Text color */
+    transform: translateX(-3cm);
+    /* Translate position */
+}
+
+/* Styles for the right section */
+.right {
+    color: rgba(255, 255, 255, 0.63);
+    /* Text color with opacity */
+    transform: translateX(6cm);
+    /* Translate position */
+}
+
+/* Styles for buttons in the right section */
+.right button {
+    color: rgba(255, 255, 255, 0.63);
+    /* Text color with opacity */
+    background-color: rgb(56, 3, 180);
+    /* Button background color */
+}
+
+/* Styles for the navigation bar */
+nav {
+    display: flex;
+    /* Display as flex container */
+    justify-content: space-around;
+    /* Space around items */
+    align-items: center;
+    /* Align items vertically */
+    height: 80px;
+    /* Set height */
+    background-color: rgb(0, 0, 50);
+    /* Background color */
+}
+
+/* Styles for the navigation links */
+nav ul {
+    display: flex;
+    /* Display as flex container */
+    justify-content: center;
+    /* Center content */
+}
+
+nav ul li {
+    list-style: none;
+    /* Remove default list style */
+    margin: 0 25px;
+    /* Set margin */
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Remove underline */
+    color: rgba(255, 255, 255, 0.63);
+    /* Text color with opacity */
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    /* Text color on hover */
+    font-size: 1.1rem;
+    /* Font size on hover */
+}
+
+/* Styles for the first section */
+.first {
+    display: flex;
+    /* Display as flex container */
+    justify-content: space-around;
+    /* Space around items */
+    margin: 50px;
+    /* Set margin */
+}
+
+.first>div {
+    margin: 25px;
+    /* Set margin */
+    width: 40%;
+    /* Set width */
+}
+
+.leftsection {
+    font-size: 2rem;
+    /* Font size */
+    color: white;
+    /* Text color */
+}
+
+.rightsection {
+    color: white;
+    /* Text color */
+}
+
+.name,
+.ecollege {
+    color: rgb(150, 38, 255);
+    /* Text color */
+    font-size: 3rem;
+    /* Font size */
+}
+
+.rightsection img {
+    width: 50%;
+    /* Set width */
+    margin-left: 10cm;
+    /* Set margin */
+    margin-top: -70px;
+    /* Set margin */
+}
+
+/* Styles for the second section */
+.second {
+    margin: 50px;
+    /* Set margin */
+}
+
+/* Styles for the horizontal line */
+hr {
+    border: 0;
+    /* Remove border */
+    background-color: #02479f;
+    /* Background color */
+    color: #02479f;
+    /* Text color */
+    height: 3px;
+    /* Set height */
+    margin-left: 75px;
+    /* Set margin */
+    margin-right: 75px;
+    /* Set margin */
+    margin-bottom: 2.5cm;
+    /* Set margin */
+}
+
+/* Styles for social media icons */
+.homesic {
+    position: fixed;
+    /* Set position */
+    bottom: 10px;
+    /* Set position */
+    left: 10px;
+    /* Set position */
+    display: flex;
+    /* Display as flex container */
+    justify-content: space-between;
+    /* Space between items */
+    width: 210px;
+    /* Set width */
+}
+
+.homesic a {
+    display: inline-flex;
+    /* Display as inline-flex */
+    justify-content: center;
+    /* Center content */
+    align-items: center;
+    /* Align items vertically */
+    width: 40px;
+    /* Set width */
+    height: 40px;
+    /* Set height */
+    background: transparent;
+    /* Transparent background */
+    border: 2px solid #02479f;
+    /* Border */
+    border-radius: 20px;
+    /* Border radius */
+    font-size: 20px;
+    /* Font size */
+    color: rgb(255, 255, 255);
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.homesic a i {
+    font-size: 20px;
+    /* Font size */
+}
+
+.homesic a:hover i {
+    transform: scale(1.2);
+    /* Scale effect on hover */
+}
+
+.homesic a:hover {
+    border-radius: 30px;
+    /* Border radius on hover */
+    color: rgba(255, 255, 255, 0.63);
+    /* Text color with opacity on hover */
+}
+
+/* Additional styles for navigation buttons */
+.nav_button {
+    width: 150px;
+    /* Set width */
+    height: 40px;
+    /* Set height */
+    /* Adjust size as needed */
+}
+
+/* Button hover effect */
+.buttons button:hover {
+    transform: scale(0.8);
+    /* Scale effect on hover */
+}
+
+.cisco img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.nasscom img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+
+.fundamentals_of_digital_marketing img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.dave_town_developer_student_club img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.dav_town_certificate_of_participation img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.dav_town_certificate_of_appreciation img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.microsoft_learn_student_ambassador img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.MHT_CET_PCM img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.MHT_CET_PCB img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.NPTEL_ambassador img {
+    width: 750px;
+    /* Set width of image */
+    margin-left: 15cm;
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+/* ---------------------------------------------------------------------------- */
+.leftsectionresume {
+    border-image-width: 5px;
+    /* Set width of image */
+}
+
+.middlesectionresume {
+    width: 10px;
+    /* Set width of image */
+}
+
+.rightsectionresume {
+    width: 10px;
+    /* Set width of image */
+}
+
+/* ---------------------------------------------------------------------------- */
+.body {
+    background-color: rgb(0, 0, 35);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 50);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p,
+header a {
+    margin: 5px 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: rgb(152, 56, 241);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 50);
+    padding: 10px;
+}
+
+.homesic {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.homesic a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #02479f;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.homesic a:hover {
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.homesic a i {
+    font-size: 20px;
+}
+
+.homesic a:hover i {
+    transform: scale(1.2);
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-item {
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    text-transform: lowercase;
+}
+
+.info-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.info-item div {
+    margin-top: 5px;
+} */
+/* -------------------------------------------------- */
+.first {
+    display: flex;
+    /* Display as flex container */
+    justify-content: space-around;
+    /* Space around items */
+    margin: 50px;
+    /* Set margin */
+}
+
+.resume>div {
+    margin: 25px;
+    /* Set margin */
+    width: 40%;
+    /* Set width */
+}
+
+.leftsectionresume {
+    width: 5px;
+}
+
+.middlesectionresume {
+    width: 5px;
+}
+
+.rightsectionresume {
+    width: 5px;
+}
+
+/* -------------------------------------------------- */
+
+.school_1 {
+    width: 75px;
+    /* Set width of image */
+
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.school_mgv {
+    width: 75px;
+    /* Set width of image */
+
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.school_1 {
+    width: 75px;
+    /* Set width of image */
+
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+.school_1 {
+    width: 75px;
+    /* Set width of image */
+
+    /* Set left margin for image */
+    margin-bottom: 2.5cm;
+}
+
+/* ***************************************************************************** */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 5px;
+}
+
+.container img,
+.container box-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.leftsectionresume {
+    align-items: left;
+
+}
+
+.middlesectionresume {
+    align-items: center;
+
+}
+
+.rightsectionresume {
+    align-items: right;
+
+}
+
+
+/* ***************************************************************************** */
+
+
+.resume {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.resume-section div {
+    margin-top: 5px;
+}
+
+.resume-section img {
+    width: 50px;
+    height: 50px;
+}
+
+/* ***************************************** */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.resume {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.resume-section:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #000;
+    height: 70%;
+    margin: auto;
+}
+
+.resume-section div {
+    margin-top: 5px;
+}
+
+.resume-section img {
+    width: 50px;
+    height: 50px;
+}
+
+/*  */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.resumefirest {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-item {
+    display: flex;
+    margin-left: 10cm;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-left: -450px;
+    margin-right: 600px;
+}
+
+.image img {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 500px;
+}
+
+/*  */
+.containerresume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.name1 {
+    color: rgb(175, 100, 250);
+    /* Text color */
+}
+
+.name2 {
+    color: rgb(200, 150, 250);
+    /* Text color */
+}
+
+.name3 {
+    color: rgb(250, 200, 250);
+    /* Text color */
+}
+
+
+/* ********************** */
+.second {
+    text-align: justify;
+    /* Centering the text */
+}
+
+.second div {
+    margin-left: 50px;
+    /* Left margin */
+    margin-right: 50px;
+    /* Right margin */
+}
